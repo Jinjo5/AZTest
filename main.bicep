@@ -9,4 +9,4 @@ resource resourceGroup 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   location: rglocation
   
 }
-output outputName string = resourceGroup.properties.provisioningState
+
